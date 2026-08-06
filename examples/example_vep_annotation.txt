@@ -1,0 +1,17 @@
+Uploaded Variation : 17_60241_G/A
+
+Gene               : TP53
+Transcript         : ENST00000269305
+Consequence        : intron_variant
+Impact             : MODIFIER
+Existing Variant   : rsXXXXX
+
+----------------------------------------------------
+
+Uploaded Variation : 17_60393_T/C
+
+Gene               : TP53
+Transcript         : ENST00000269305
+Consequence        : missense_variant
+Impact             : MODERATE
+Existing Variant   : rsYYYYY
