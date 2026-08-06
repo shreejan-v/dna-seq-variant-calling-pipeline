@@ -191,16 +191,30 @@ Annotated variants were reviewed to examine genomic locations, functional conseq
 
 ## 📊 Results
 
-The complete DNA-Seq workflow was successfully executed for four human sequencing samples.
+The DNA-Seq variant calling and functional annotation workflow was successfully completed for four human sequencing samples from BioProject **PRJNA627318**.
 
-### Summary
+### Sample Summary
 
-| Sample | Variant Calling | VEP Annotation |
-|---------|----------------|---------------|
-| SRR11603071 | ✅ Completed | ✅ Completed |
-| SRR11603072 | ✅ Completed | ✅ Completed |
-| SRR11603073 | ✅ Completed | ✅ Completed |
-| SRR11603080 | ✅ Completed | ✅ Completed |
+| Sample | Unique Variants | Genes Affected | Transcripts | Status |
+|---------|---------------:|---------------:|------------:|:------:|
+| SRR11603071 | 3,150 | 313 | 2,390 | ✅ Completed |
+| SRR11603072 | 3,299 | 479 | 3,457 | ✅ Completed |
+| SRR11603073 | 13,681 | 1,187 | 6,815 | ✅ Completed |
+| SRR11603080 | 4,837 | 490 | 3,444 | ✅ Completed |
+
+### Biological Highlights
+
+The majority of annotated variants were located in **intronic regions**, followed by **3' untranslated regions (3' UTRs)**, **missense variants**, and **synonymous variants**. This distribution is consistent with typical whole-genome DNA sequencing datasets, where most detected variants occur outside protein-coding exons.
+
+---
+
+### Overall Outcome
+
+- Successfully processed **4 human DNA sequencing samples**
+- Completed end-to-end variant calling using **GATK HaplotypeCaller**
+- Functionally annotated all variants using **Ensembl Variant Effect Predictor (VEP)**
+- Identified thousands of genomic variants across the analysed samples
+- Detected variants affecting hundreds of genes and thousands of transcripts
 
 ### Pipeline Outcomes
 
@@ -215,17 +229,20 @@ The complete DNA-Seq workflow was successfully executed for four human sequencin
 | Metric | Value |
 |---------|------:|
 | Organism | Homo sapiens |
+| BioProject | PRJNA627318 |
+| SRA Project | SRP258414 |
 | Samples Analysed | 4 |
-| Total Variants Identified | XXXX |
-| Total Variants Annotated | XXXX |
-| Genes Affected | XXXX |
-| Novel Variants | XXXX |
-| Known Variants | XXXX |
-| Pipeline Completion | 100% |
-| Bioinformatics Tools Used | 7 |
+| Total Unique Variants | 24,967 |
+| Total Genes Affected | 2,469* |
+| Total Annotated Transcripts | 16,106 |
+| Variant Calling Tool | GATK HaplotypeCaller |
+| Annotation Tool | Ensembl Variant Effect Predictor (VEP) |
 | Pipeline Stages | 8 |
----
+| Software Tools Used | 7 |
+| Operating System | Ubuntu 24.04 LTS (WSL2) |
 
+*Gene counts are summed across samples; the same gene may appear in multiple samples.
+---
 ## 🛠️ Computing Environment
 
 | Component | Version |
