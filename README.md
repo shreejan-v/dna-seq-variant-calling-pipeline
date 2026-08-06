@@ -1,4 +1,4 @@
-# 🧬 DNA-Seq Variant Calling and Functional Annotation Pipeline
+# DNA-Seq Variant Calling and Functional Annotation Pipeline
 
 ![Platform](https://img.shields.io/badge/Platform-Linux-orange)
 ![Language](https://img.shields.io/badge/Language-Bash-blue)
@@ -8,7 +8,7 @@
 
 End-to-end DNA sequencing analysis pipeline for variant discovery and functional annotation using FastQC, fastp, BWA-MEM, SAMtools, Picard, GATK HaplotypeCaller and Ensembl Variant Effect Predictor (VEP).
 
-## 📖 Introduction
+##  Introduction
 
 Next-Generation Sequencing (NGS) technologies have transformed genomics by enabling rapid and cost-effective identification of genetic variants across the genome. Variant calling is a fundamental step in DNA sequencing analysis, allowing researchers to detect single nucleotide polymorphisms (SNPs), insertions, deletions (InDels), and other genomic alterations that may contribute to genetic diversity, disease susceptibility, or biological function.
 
@@ -16,11 +16,11 @@ This project presents a complete end-to-end DNA-Seq variant calling and function
 
 The workflow was implemented on publicly available human sequencing datasets from **NCBI BioProject PRJNA627318** and demonstrates practical experience with Linux-based bioinformatics pipelines, reproducible genomics analysis, and industry-standard tools commonly used in academic research and clinical genomics.
 ---
-## 📄 Abstract
+##  Abstract
 
 This project implements a complete DNA sequencing variant calling pipeline using publicly available human next-generation sequencing (NGS) datasets. Starting from raw paired-end sequencing reads, the workflow performs quality assessment, read preprocessing, sequence alignment, post-alignment processing, variant calling, and functional annotation using industry-standard bioinformatics tools. The pipeline demonstrates a reproducible Linux-based workflow for identifying and interpreting genomic variants and provides practical experience with widely adopted tools used in genomics research.
 ---
-## 📑 Table of Contents
+##  Table of Contents
 
 - Project Overview
 - Objectives
@@ -37,7 +37,7 @@ This project implements a complete DNA sequencing variant calling pipeline using
 - License
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This repository presents an end-to-end DNA sequencing variant calling pipeline implemented on human next-generation sequencing (NGS) data.
 
@@ -46,7 +46,7 @@ The workflow starts from raw paired-end FASTQ files and progresses through quali
 The pipeline follows widely adopted bioinformatics best practices and employs industry-standard software including FastQC, fastp, BWA-MEM, SAMtools, Picard, GATK HaplotypeCaller, and Ensembl VEP.
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - Assess raw sequencing read quality
 - Perform adapter trimming and quality filtering
@@ -58,7 +58,7 @@ The pipeline follows widely adopted bioinformatics best practices and employs in
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 **Organism:** Homo sapiens
 
@@ -79,7 +79,7 @@ The pipeline follows widely adopted bioinformatics best practices and employs in
 
 ---
 
-## 🧪 Tools Used
+##  Tools Used
 
 | Tool                 | Purpose                                |
 | -------------------- | -------------------------------------- |
@@ -92,7 +92,7 @@ The pipeline follows widely adopted bioinformatics best practices and employs in
 | Ensembl VEP          | Functional annotation                  |
 
 ---
-## ⚙️ Software Versions
+##  Software Versions
 
 The pipeline was developed and tested using the following software versions.
 
@@ -109,7 +109,7 @@ The pipeline was developed and tested using the following software versions.
 | Java | OpenJDK 17 |
 | Ubuntu | 24.04 LTS (WSL2) |
 ---
-## 📁 Repository Structure
+##  Repository Structure
 
 ```text
 dna-seq-variant-calling-pipeline
@@ -124,7 +124,7 @@ dna-seq-variant-calling-pipeline
 └── requirements.md
 ```
 
-## 🔬 Pipeline Workflow
+##  Pipeline Workflow
 
 ```text
 Raw FASTQ
@@ -165,7 +165,7 @@ Ensembl Variant Effect Predictor (VEP)
       ▼
 Variant Interpretation
 ```
-## ⚙️ Methodology
+##  Methodology
 
 The DNA-Seq variant calling workflow was performed using publicly available human sequencing datasets from NCBI BioProject **PRJNA627318**. The analysis was carried out on Ubuntu 24.04 LTS (WSL2) using widely adopted bioinformatics tools.
 
@@ -205,7 +205,7 @@ The generated VCF files were functionally annotated using **Ensembl Variant Effe
 
 Annotated variants were reviewed to examine genomic locations, functional consequences, and transcript-level effects, providing biological interpretation of the identified variants.
 ---
-## 🖼️ Pipeline Figures
+##  Pipeline Figures
 
 ### FastQC Summary
 
@@ -267,7 +267,7 @@ The majority of annotated variants were located in **intronic regions**, followe
 - Identified genomic variants using GATK HaplotypeCaller
 - Annotated variants using Ensembl Variant Effect Predictor (VEP)
 ---
-## 📈 Project Statistics
+##  Project Statistics
 
 | Metric | Value |
 |---------|------:|
@@ -286,7 +286,7 @@ The majority of annotated variants were located in **intronic regions**, followe
 
 *Gene counts are summed across samples; the same gene may appear in multiple samples.
 ---
-## 🛠️ Computing Environment
+##  Computing Environment
 
 | Component | Version |
 |-----------|---------|
@@ -302,7 +302,7 @@ The majority of annotated variants were located in **intronic regions**, followe
 
 ---
 
-## 📚 Skills Demonstrated
+##  Skills Demonstrated
 
 | Domain | Skills |
 |---------|--------|
@@ -312,7 +312,7 @@ The majority of annotated variants were located in **intronic regions**, followe
 | Tools | GATK, BWA, Picard, SAMtools, VEP |
 
 ---
-## 🚀 Future Improvements
+##  Future Improvements
 
 Although this pipeline successfully performs DNA-Seq variant calling and functional annotation, several enhancements can further improve its analytical capabilities:
 
@@ -326,12 +326,12 @@ Although this pipeline successfully performs DNA-Seq variant calling and functio
 - Extend the workflow to whole-genome or whole-exome sequencing datasets for large-scale genomic studies.
 ---
 
-## 🙏 Acknowledgements
+##  Acknowledgements
 
 This project was completed as part of the **DrOmics DNA Sequencing Internship**. The workflow was implemented and executed using publicly available human sequencing data from **BioProject PRJNA627318**.
 
 ---
-## 📖 References
+##  References
 
 1. Andrews S. FastQC.
 
@@ -348,13 +348,13 @@ This project was completed as part of the **DrOmics DNA Sequencing Internship**.
 7. McLaren et al. Ensembl Variant Effect Predictor.
    
 --- 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License.
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Shreejan V**
 
