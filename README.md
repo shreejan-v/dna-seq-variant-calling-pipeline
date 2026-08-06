@@ -92,6 +92,23 @@ The pipeline follows widely adopted bioinformatics best practices and employs in
 | Ensembl VEP          | Functional annotation                  |
 
 ---
+## ⚙️ Software Versions
+
+The pipeline was developed and tested using the following software versions.
+
+| Software | Version |
+|----------|---------|
+| FastQC | v0.12.1 |
+| fastp | v0.23.4 |
+| BWA-MEM | v0.7.17 |
+| SAMtools | v1.19.2 |
+| Picard | v3.4.0 |
+| GATK HaplotypeCaller | v4.6.2.0 |
+| Tabix / bgzip (HTSlib) | v1.19.1 |
+| Ensembl Variant Effect Predictor (VEP) | Release 115 (Web Interface) |
+| Java | OpenJDK 17 |
+| Ubuntu | 24.04 LTS (WSL2) |
+---
 ## 📁 Repository Structure
 
 ```text
