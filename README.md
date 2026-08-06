@@ -188,6 +188,31 @@ The generated VCF files were functionally annotated using **Ensembl Variant Effe
 
 Annotated variants were reviewed to examine genomic locations, functional consequences, and transcript-level effects, providing biological interpretation of the identified variants.
 ---
+## FastQC Summary
+
+![FastQC](figures/fastqc_summary.png)
+
+## Read Trimming
+
+![fastp](figures/fastp_summary.png)
+
+## Alignment Summary
+
+![Alignment](figures/alignment_summary.png)
+
+## Variant Statistics
+
+![Variant Statistics](figures/variant_statistics.png)
+
+## Variant Consequences
+
+![Variant Consequences](figures/variant_consequences.png)
+
+## VEP Impact Summary
+
+![VEP Summary](figures/vep_summary.png)
+
+---
 
 ## 📊 Results
 
