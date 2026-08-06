@@ -1,0 +1,48 @@
+# FASTQ files
+*.fastq
+*.fastq.gz
+
+# SAM/BAM files
+*.sam
+*.bam
+*.bai
+
+# VCF files
+*.vcf
+*.vcf.gz
+*.vcf.gz.tbi
+
+# Intermediate files
+*.dict
+*.fai
+*.amb
+*.ann
+*.bwt
+*.pac
+*.sa
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# FastQC outputs
+*_fastqc.html
+*_fastqc.zip
+
+# fastp reports
+*.json
+*.html
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Python cache
+__pycache__/
+*.pyc
