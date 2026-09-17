@@ -366,8 +366,4 @@ GitHub: https://github.com/shreejan-v
 
 Project completed as part of the DrOmics DNA Sequencing Internship.
 
-SRM Institute of Science and Technology
 
-B.Tech Biotechnology (Computational Biology)
-
-GitHub: https://github.com/shreejan-v
